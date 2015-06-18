@@ -19,8 +19,8 @@ app.get('/vine/:videoId', routes.vineGetVideo);
 //app.get('/widget', authenticate, routes.widget);
 //app.get('/settings', authenticate, routes.settings);
 
-app.get('/uploadwidget', routes.uploadwidget);
-app.get('/uploadsettings', routes.uploadsettings);
+app.get('/uploadwidget', authenticate, routes.uploadwidget);
+app.get('/uploadsettings', authenticate, routes.uploadsettings);
 
 
 function authenticate(req, res, next) {

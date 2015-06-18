@@ -2,5 +2,6 @@ PWD=`pwd`
 
 [ ! -d $PWD/node_modules ] && ~/.nvm/v0.10.38/bin/npm install
 [ ! -d $PWD/bower_components ] && ~/.nvm/v0.10.38/bin/bower install
+[ ! -L $PWD/app/bower_components ] && ln -s $PWD/bower_components $PWD/app/bower_components
 
-~/.nvm/v0.10.38/bin/nodemon $PWD/server.js
+~/.nvm/v0.10.38/bin/node $PWD/server.js 2>&1 > $PWD/logs/wix.log &
