@@ -1,0 +1,30 @@
+{
+  "name": "wix-ui-lib2",
+  "version": "2.1.13",
+  "homepage": "http://wix.github.com/wix-ui-lib",
+  "description": "Starter Kit for Wix 3rd Party Apps",
+  "main": [
+    "./ui-lib.js",
+    "./ui-lib.css"
+  ],
+  "keywords": [
+    "wix",
+    "3rd",
+    "part",
+    "apps",
+    "ui-lib"
+  ],
+  "authors": [
+    "sdk-dev@wix.com"
+  ],
+  "license": "MIT",
+  "_release": "2.1.13",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.1.13",
+    "commit": "e97f9f9a1b599a097426a6091ddae5c95c9ddb7b"
+  },
+  "_source": "git://github.com/wix/wix-ui-lib-bower.git",
+  "_target": "~2.1.8",
+  "_originalSource": "wix-ui-lib2"
+}

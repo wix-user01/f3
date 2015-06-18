@@ -1,0 +1,15 @@
+# TODO
+===========
+### WIDGET
+- auto resize image to fir different mediat sizes
+-- https://github.com/FBerthelot/angular-images-resizer.git
+
+- click anywhere to initiate upload
+
+- upload to disk then background offsite to S3
+
+- user accounts
+
+### SETTINGS
+- carasel select uploaded default images
+

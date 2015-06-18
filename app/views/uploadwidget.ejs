@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="no-js" ng-app="uploadApp">
+<head>
+    <% include ../views/partials/head %>
+    <style>
+      .container {
+        width: auto;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        z-index: 10;
+        }
+    </style>
+</head>
+
+<body ng-controller="bodyController">
+
+  <div class="container" ng-style="{ 'background-image': getImage() }">
+    <div ng-controller="mainController">
+
+    </div>
+  </div>
+
+</body>
+</html>
